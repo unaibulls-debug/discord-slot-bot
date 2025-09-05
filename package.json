@@ -1,0 +1,19 @@
+{
+  "name": "discord-slot-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "slots"],
+  "author": "",
+  "license": "ISC",
+  "description": "Discord Slot Bot with VIP management system",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "meilisearch": "^0.52.0",
+    "node-cron": "^4.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
