@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: discord-slot-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
